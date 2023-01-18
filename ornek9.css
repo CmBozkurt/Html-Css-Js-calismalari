@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body div {
+  margin: 0px;
+  padding: 0px;
+}
+
+body div button {
+  height: 25px;
+  width: 125px;
+  background-color: #3cff00;
+}
+
+body div p {
+  margin: 25px;
+}
+
+body div #alan {
+  margin-left: 25px;
+  min-height: 350px;
+  width: 300px;
+  border-style: double;
+  background-color: beige;
+}
+
+body div ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: reverse;
+          flex-direction: reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div ul li[text] {
+  background-color: aqua;
+}
+
+body div ul li button {
+  background-color: beige;
+  border-style: none;
+  font-size: larger;
+}
+
+body div ul li button:hover {
+  color: crimson;
+  background-color: #bbdfdf;
+}
+
+body div ul li:hover {
+  color: green;
+  background-color: #bbdfdf;
+}
+
+body div #ara {
+  margin-left: 25px;
+  width: 200px;
+  height: 17px;
+  background-color: azure;
+}
+/*# sourceMappingURL=ornek9.css.map */

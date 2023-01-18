@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  div {
+    margin: 0px;
+    padding: 0px;
+    button {
+      height: 25px;
+      width: 125px;
+      background-color: rgb(60, 255, 0);
+    }
+    p {
+      margin: 25px;
+    }
+    #alan {
+      margin-left: 25px;
+      min-height: 350px;
+      width: 300px;
+      border-style: double;
+      background-color: beige;
+    }
+    ul li {
+      list-style-type: none;
+    }
+    ul li[text] {
+      background-color: aqua;
+    }
+    ul li:hover {
+      color: green;
+      background-color: rgb(187, 223, 223);
+    }
+    #ara {
+      margin-left: 25px;
+      width: 200px;
+      height: 17px;
+      background-color: azure;
+    }
+  }
+}
